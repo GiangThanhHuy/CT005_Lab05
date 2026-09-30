@@ -1,124 +1,155 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>  
+<html lang="vi">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Trang Cá Nhân & Sản Phẩm Lab 05</title>  
 
-    <title>Lợi ích của Công nghệ số</title>
+<style>  
+    * {  
+        box-sizing: border-box;  
+    }  
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    body {  
+        margin: 0;  
+        padding: 20px;  
+        font-family: Arial, sans-serif;  
+        background: #f2f4f7;  
+        color: #222;  
+    }  
 
-        body {
-            margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background: #f2f4f7;
-            color: #222;
-        }
+    .container {  
+        max-width: 900px;  
+        margin: auto;  
+        background: white;  
+        padding: 20px;  
+        border-radius: 12px;  
+    }  
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-        }
+    h1 {  
+        text-align: center;  
+        color: #064b91;  
+        margin-bottom: 10px;  
+    }  
 
-        h1 {
-            text-align: center;
-            color: #064b91;
-            margin-bottom: 25px;
-        }
+    /* Thêm style cho khung Thông tin cá nhân */
+    .profile-info {
+        background: #eef5ff;
+        padding: 15px 20px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        border-left: 5px solid #064b91;
+    }
 
-        h2 {
-            color: #064b91;
-            margin-top: 30px;
-        }
+    .profile-info p {
+        margin: 5px 0;
+        font-size: 16px;
+    }
 
-        .infographic {
-            width: 100%;
-            max-width: 700px;
-            display: block;
-            margin: auto;
-            border-radius: 8px;
-        }
+    h2 {  
+        color: #064b91;  
+        margin-top: 30px;  
+    }  
 
-        .video {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            margin-top: 15px;
-        }
+    .pdf-button {
+        display: inline-block;
+        padding: 10px 18px;
+        background: #064b91;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
 
-        .video iframe {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border: none;
-            border-radius: 8px;
-        }
+    .infographic {  
+        width: 100%;  
+        max-width: 700px;  
+        display: block;  
+        margin: auto;  
+        border-radius: 8px;  
+    }  
 
-        .source {
-            margin-top: 25px;
-            padding: 15px;
-            background: #f1f1f1;
-            border-radius: 8px;
-        }
+    .video {  
+        position: relative;  
+        width: 100%;  
+        padding-bottom: 56.25%;  
+        margin-top: 15px;  
+    }  
 
-        footer {
-            text-align: center;
-            margin-top: 25px;
-            font-size: 14px;
-            color: #555;
-        }
-    </style>
-</head>
+    .video iframe {  
+        position: absolute;  
+        width: 100%;  
+        height: 100%;  
+        border: none;  
+        border-radius: 8px;  
+    }  
 
-<body>
+    .source {  
+        margin-top: 25px;  
+        padding: 15px;  
+        background: #f1f1f1;  
+        border-radius: 8px;  
+    }  
 
-    <div class="container">
+    footer {  
+        text-align: center;  
+        margin-top: 25px;  
+        font-size: 14px;  
+        color: #555;  
+    }  
+</style>  
 
-        <h1>Lợi ích của Công nghệ số</h1>
+</head>  
+<body>  
+<div class="container">  
 
-        <h2>1. Infographic</h2>
+    <h1>Trang Giới Thiệu & Sản Phẩm Lab 05</h1>  
 
-        <img
-            src="infographic.png"
-            alt="Infographic Lợi ích của Công nghệ số"
-            class="infographic"
-        >
-
-        <h2>2. Video YouTube</h2>
-
-        <div class="video">
-            <iframe
-                src="https://www.youtube.com/embed/uejGY2K0DR8"
-                title="Video về công nghệ số"
-                allowfullscreen>
-            </iframe>
-        </div>
-
-        <div class="source">
-            <h2>Nguồn</h2>
-
-            <p>
-                Infographic được tạo bởi Canva AI,
-                hình ảnh từ Unsplash (Unsplash License).
-            </p>
-
-            <p>
-                Trang HTML được tạo với sự hỗ trợ của AI.
-            </p>
-        </div>
-
-        <footer>
-            © 2026 - Lab5 - Nhiệm vụ 3.1
-        </footer>
-
+    <!-- Thông tin cá nhân (Nhiệm vụ 3.2) -->
+    <div class="profile-info">
+        <p><b>Họ và tên:</b> Giảng Thành Huy</p>
+        <p><b>MSSV:</b> [B2605805]</p>
+        <p><b>Lớp học phần:</b> [26D6A1]</p>
     </div>
 
-</body>
+    <!-- Sản phẩm 1: File PDF (Nhiệm vụ 1.2) -->
+    <h2>1. File PDF (Nhiệm vụ 1.2)</h2>
+    <p>Báo cáo file PDF được đính kèm trong repository:</p>
+    <a href="Lab5_Ex1.2.pdf" target="_blank" class="pdf-button">📄 Xem file PDF</a>
+
+    <!-- Sản phẩm 2: File PNG (Nhiệm vụ 2.1) -->
+    <h2>2. Infographic (Nhiệm vụ 2.1)</h2>  
+    <img  
+        src="Lab5_Ex2.1.png"  
+        alt="Infographic Lợi ích của Công nghệ số"  
+        class="infographic"  
+    >  
+
+    <!-- Sản phẩm 3: Video YouTube (Nhiệm vụ 3.1) -->
+    <h2>3. Video YouTube</h2>  
+    <div class="video">  
+        <iframe  
+            src="https://www.youtube.com/embed/uejGY2K0DR8"  
+            title="Video về công nghệ số"  
+            allowfullscreen>  
+        </iframe>  
+    </div>  
+
+    <div class="source">  
+        <h2>Nguồn</h2>  
+        <p>  
+            Infographic được tạo bởi Canva AI, hình ảnh từ Unsplash.  
+        </p>  
+        <p>  
+            Trang HTML được phát triển với sự hỗ trợ của GitHub Copilot / AI.  
+        </p>  
+    </div>  
+
+    <footer>  
+        © 2026 - CT005 Lab05 - Nhiệm vụ 3.2  
+    </footer>  
+
+</div>  
+</body>  
 </html>
